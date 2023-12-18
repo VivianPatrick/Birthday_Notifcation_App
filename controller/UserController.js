@@ -20,7 +20,7 @@ const register = async (req, res) => {
         sendEmail(message, user);
         return res.status(200).json({
             status: 'success',
-            message: 'User created successfully'
+            message: 'Registration successful'
             // data: user
         })
 } catch (error) {
